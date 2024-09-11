@@ -35,11 +35,11 @@ O projeto é composto pelos seguintes arquivos:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/sistema-bancario-python.git
+   git clone https://github.com/seuusuario/dio-desafio-criando-um-sistema-bancario-com-python.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd sistema-bancario-python
+   cd dio-desafio-criando-um-sistema-bancario-com-python
    ```
 3. Execute o arquivo `main.py`:
    ```bash
