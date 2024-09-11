@@ -53,7 +53,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ## 📧 Contato
 
 Caso tenha alguma dúvida, entre em contato via [matheusvaz.data@gmail.com](mailto:matheusvaz.data@gmail.com).
-
----
-
-Essa estrutura tornará o projeto mais atraente e organizado para quem visitar seu GitHub.
