@@ -52,7 +52,8 @@ while True:
         numero_saques += 1
 
     elif opcao == "e":
-        print(f'Extrato detalhado:\n\n{extrato}\nSaldo atual: R$ {saldo:.2f}.')
+        print(f'Extrato detalhado:\n')
+        print('Não foi realizada movimentação alguma!\n' if not extrato else extrato)
         print('=' * 88)
     elif opcao == "q":
         break
