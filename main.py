@@ -19,13 +19,14 @@ while True:
     print('=' * 88)
 
     if opcao == "d":
-        deposito = 0
+        deposito = -1
         while deposito <= 0:
             deposito = float(input('Qual valor você deseja depositar (ele precisa ser maior que R$ 0,00)? '))
-            saldo += deposito
-            extrato += f'(+) Depósito: R$ {deposito:.2f}\n'
-            print(f'Depósito de R$ {deposito:.2f} realizado com sucesso!')
-            print('=' * 88)
+        
+        saldo += deposito
+        extrato += f'(+) Depósito: R$ {deposito:.2f}\n'
+        print(f'Depósito de R$ {deposito:.2f} realizado com sucesso!')
+        print('=' * 88)
 
     elif opcao == "s":
         if numero_saques < LIMITE_SAQUES:
@@ -35,8 +36,8 @@ while True:
                 print(f'Você não tem saldo suficiente. Seu saldo é de: R$ {saldo:.2f}')
                 numero_saques -= 1
             else:
-                while saque <=0 or saque > 500:
-                    saque = 0
+                while saque <= 0 or saque > 500:
+                    saque = -1
                     saque = float(input('Qual valor você deseja sacar (ele precisa ser maior que R$ 0,00 e menor ou igual a R$ 500,00)? '))
                 
                 saldo -= saque
